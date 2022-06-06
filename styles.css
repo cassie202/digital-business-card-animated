@@ -1,0 +1,48 @@
+body {
+    margin: 20px;
+    font-family:Trebuchet MS;
+    word-spacing: normal;
+    background-color: #DFDBE5;
+   background-color: #9c9149;
+background-color: #f0f0ea;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23090213' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 30px;
+    
+}
+
+
+.card {
+    width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #202020;
+    color: #ffe169;
+    border-bottom: 6px solid #a47e1b;
+    border-radius: 50px;
+    
+}
+
+.avatar-edge{
+    background:#a47e1b;
+}
+
+.card:hover{
+    background: #a47e1b;
+    color:#202020;
+}
+
+.bounce{
+    animation: 1s linear 0s bounce;
+}
+
+@keyframes bounce{
+     70% {transform: bounce(360deg) }
+     100% {transform: rotatex(360deg)}
+}
